@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>StudyMaterial</title>
+    <link rel="icon" type="image/x-icon" href="./image/logo.jpg">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="my.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gray-900 text-white sticky-top fixed-top">
+        <a class="navbar-brand text-primary" href="index.html">
+            <h3><b>Dino Coding</b></h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-align-justify text-white bg-gray-900"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2/">Linkedin</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="skill.html">Skills</a>
+                </li> -->
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="./cheetsheet.html">StudyMaterial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:krishvishwa666@gmail.com">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                            href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2/details/certifications/">Certificate</a>
+                        <a class="dropdown-item" href="./pdf/final resume.pdf">Resume</a>
+                        <a class="dropdown-item" href="https://github.com/CaptainKrishna/">GitHub</a>
+                        <a class="dropdown-item" href="./cheetsheet.html">Cheetsheet</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+
+                <div class="p-4 md:w-1/3 ">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden border-sm">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/mongodb.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">MongoDb</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">MongoDB is a document database
+                                used to build highly
+                                available and scalable internet applications. With its flexible schema approach, it's
+                                popular with development teams using agile methodologies.</p>
+                            <a href="Cheetsheet/mongodb.pdf">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://www.mongodb.com/try/download/community">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Download <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/github.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">GitHub</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">GitHub is a code hosting platform
+                                for version
+                                control and collaboration. It lets you and others work together on projects from
+                                anywhere. This tutorial teaches you GitHub essentials like repositories, branches,
+                                commits, and pull requests.</p>
+                            <a href="Cheetsheet/github-git-cheat-sheet.pdf">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://git-scm.com/">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Download <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/java.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">JAVA</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">GitHub is a code hosting platform
+                                for version
+                                control and collaboration. It lets you and others work together on projects from
+                                anywhere. This tutorial teaches you GitHub essentials like repositories, branches,
+                                commits, and pull requests.</p>
+                            <a href="Cheetsheet/Java_Cheatsheet_CodeWithHarry.pdf">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Download <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/html.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Html</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">HTML (Hypertext Markup Language)
+                                is the code that is
+                                used to structure a web page and its content. For example, content could be structured
+                                within a set of paragraphs, a list of bulleted points, or using images and data tables.
+                            </p>
+                            <a href="https://www.codewithharry.com/blogpost/html-cheatsheet">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Documentation <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/css.jfif" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">CSS</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">CSS is the acronym of “Cascading
+                                Style Sheets”. CSS
+                                is a computer language for laying out and structuring web pages (HTML or XML). This
+                                language contains coding elements and is composed of these “cascading style sheets”
+                                which are equally called CSS files (. css).</p>
+                            <a href="https://www.codewithharry.com/blogpost/css-cheatsheet">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Documentation <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/js.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">JavaScript</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">JavaScript is a text-based
+                                programming language used both on the client-side and server-side that allows you to
+                                make web pages interactive. Where HTML and CSS are languages that give structure and
+                                style to web pages, JavaScript gives web pages interactive elements that engage a user.
+                            </p>
+                            <a href="cheetsheet/JavaScript_Cheatsheet_CodeWithHarry.pdf">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://devdocs.io/javascript/">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Documentation <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/sql.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">MySQL</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">MySQL is a database management
+                                system.
+
+                                To add, access, and process data stored in a computer database, you need a database
+                                management system such as MySQL Server.</p>
+                            <a href="cheetsheet/MySQL_Cheatsheet_CodeWithHarry.pdf">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://dev.mysql.com/downloads/windows/installer/8.0.html">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Download <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/cpp.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">C++</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">
+                                Files with CPP file extension are source code files for applications written in C++
+                                programming language. A single C++ project may contain more than one CPP files as
+                                application source code. ... The C++ project as a whole results in an executable
+                                application when compiled as a whole.</p>
+                            <a href="https://www.codewithharry.com/blogpost/cpp-cheatsheet">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://sourceforge.net/projects/mingw-w64/">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    mingw-w64 <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/php.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">PHP</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">PHP (Hypertext Preprocessor) is
+                                known as a general-purpose scripting language that can be used to develop dynamic and
+                                interactive websites. It was among the first server-side languages that could be
+                                embedded into HTML, making it easier to add functionality to web pages without needing
+                                to call external files for data.</p>
+                            <a href="https://www.codewithharry.com/blogpost/php-cheatsheet/">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://www.apachefriends.org/download.html">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Xampp <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/node.jpg" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">NODE JS</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">Node. js is primarily used for
+                                non-blocking, event-driven servers, due to its single-threaded nature. It's used for
+                                traditional web sites and back-end API services, but was designed with real-time,
+                                push-based architectures in mind.</p>
+                            <a href="https://www.codewithharry.com/blogpost/deploy-nodejs-app-on-ubuntu/">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://nodejs.org/en/download/">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Download <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full hover:shadow-md  rounded-3xl overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                            src="image/python.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Python</h1>
+                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block"> Python used for
+                                Besides web and software development, Python is used for data analytics, machine
+                                learning, and even design. We take a closer look at some of the uses of Python, as well
+                                as why it's such a popular and versatile programming language.</p>
+                            <a href="https://www.codewithharry.com/blogpost/python-cheatsheet/">
+                                <button
+                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Cheet <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                            <!-- <a href="#">
+                                    <button
+                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                        type="button">
+                                        How TO <i class="fas fa-arrow-right"></i>
+                                    </button></a> -->
+                            <a href="https://www.python.org/downloads/">
+                                <button
+                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    type="button">
+                                    Download <i class="fas fa-arrow-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-gray-600 body-font bg-gray-900" style="user-select: auto;">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" style="user-select: auto;">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 text-decoration-none"
+                style="user-select: auto;" href="index.html">
+
+                <span class="ml-3 text-2xl text-primary " style="user-select: auto;"><b>Dino Coding</b></span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+                style="user-select: auto;">© 2022 Dino Coding —
+                <a href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2"
+                    class=" text-decoration-none text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"
+                    style="user-select: auto;">@Krishna Vishwakarma</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+                style="user-select: auto;">
+                <a class="text-gray-500" style="user-select: auto;"
+                    href="https://www.facebook.com/profile.php?id=100023857329434">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                            style="user-select: auto;"></path>
+                    </svg>
+                </a>
+
+                <a class="ml-3 text-gray-500" style="user-select: auto;"
+                    href="https://www.instagram.com/krishna_24_25/">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" style="user-select: auto;"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" style="user-select: auto;">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500" style="user-select: auto;"
+                    href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                            style="user-select: auto;"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none" style="user-select: auto;"></circle>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500" style="user-select: auto;" href="https://github.com/CaptainKrishna/">
+                    <i class="fab fa-github"></i>
+                </a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

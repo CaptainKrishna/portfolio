@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Dino Coding</title>
+    <link rel="icon" type="image/x-icon" href="./image/logo.jpg">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="my.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gray-900 text-white sticky-top fixed-top">
+        <a class="navbar-brand text-primary" href="index.html">
+            <h3><b>Dino Coding</b></h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2/">Linkedin</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./cheetsheet.html">StudyMaterial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:krishvishwa666@gmail.com">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                            href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2/details/certifications/">Certificate</a>
+                        <a class="dropdown-item" href="./pdf/final resume.pdf">Resume</a>
+                        <a class="dropdown-item" href="https://github.com/CaptainKrishna/">GitHub</a>
+                        <a class="dropdown-item" href="./cheetsheet.html">Cheetsheet</a>
+                    </div>
+                </li>
+
+
+            </ul>
+            <a href="cheetsheet.html" class="text-decoration-none">
+                <div class="p-2 bg-indigo-800 items-center  text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+                    role="alert">
+                    <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">New</span>
+                    <span class="font-semibold mr-2 text-left flex-auto">StudyMaterial</span>
+                    <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path
+                            d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />
+                    </svg>
+                </div>
+            </a>
+        </div>
+
+    </nav>
+    <!-- This is the Hearo section -->
+    <section class="text-gray-400 bg-gray-900 body-font " id="top">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+                <img class="object-cover object-center lg\:shadow-inner rounded-circle bg-gradient-to-r from-purple-600 to-pink-600"
+                    alt="hero" width="400" height="400" src="./image/hero.png">
+            </div>
+
+            <div
+                class="container lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white align-content-center"><b>Krishna
+                        Vishwakarma</b>
+                    Software Engineer
+                </h1>
+                <p class="mb-8 leading-relaxed align-content-center">Currently, I am a final year student of computer
+                    science and engineering. I like to solve problems in specific programming languages Like C++ using
+                    DSA. I want to be a software engineer at a company where I show my technical knowledge and work with
+                    team members.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- this is the portfolio section  -->
+    <section class="text-gray-600 body-font " style="user-select: auto;">
+        <div class="container px-5 py-24 mx-auto " style="user-select: auto;">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="text-3xl font-medium title-font mb-4 text-gray-900 text-left"><b>Portfolio Work</b></h1>
+                <p class="h-1 w-20 bg-blue-500 rounded"></p>
+            </div>
+            <div class="flex flex-wrap -m-4" style="user-select: auto;">
+                <div class="p-4 md:w-1/3" style="user-select: auto;">
+                    <div class="h-full border-2 hover:shadow-lg bg-white rounded-3xl border-0 overflow-hidden"
+                        style="user-select: auto;">
+                        <a href="https://github.com/CaptainKrishna/" class="text-decoration-none">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl"
+                                src="./image/github.png" alt="blog" style="user-select: auto;">
+                            <div class="p-6" style="user-select: auto;">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                                    style="user-select: auto;">Work</h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"
+                                    style="user-select: auto;">Github Project</h1>
+                                <div class="flex items-center flex-wrap " style="user-select: auto;">
+                                    <a class="text-decoration-none  text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="user-select: auto;" href="https://github.com/CaptainKrishna/">Learn
+                                        More
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                            style="user-select: auto;">
+                                            <path d="M5 12h14" style="user-select: auto;"></path>
+                                            <path d="M12 5l7 7-7 7" style="user-select: auto;"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3" style="user-select: auto;">
+                    <div class="h-full border-2 hover:shadow-lg bg-white rounded-3xl border-0 overflow-hidden"
+                        style="user-select: auto;">
+                        <a href="https://public.tableau.com/app/profile/krishna.vishwakarma1811/viz/Dashboard1_16397394802820"
+                            class="text-decoration-none">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                                src="./image/tableau.jpg" alt="blog" style="user-select: auto;">
+                            <div class="p-6" style="user-select: auto;">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                                    style="user-select: auto;">Work</h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"
+                                    style="user-select: auto;">Tableau Public Profile</h1>
+
+                                <div class="flex items-center flex-wrap " style="user-select: auto;">
+                                    <a class=" text-decoration-none text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="user-select: auto;"
+                                        href="https://public.tableau.com/app/profile/krishna.vishwakarma1811/viz/Dashboard1_16397394802820">Learn
+                                        More
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                            style="user-select: auto;">
+                                            <path d="M5 12h14" style="user-select: auto;"></path>
+                                            <path d="M12 5l7 7-7 7" style="user-select: auto;"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3" style="user-select: auto;">
+                    <div class="h-full border-2 hover:shadow-lg bg-white rounded-3xl border-0 overflow-hidden"
+                        style="user-select: auto;">
+                        <a href="https://www.hackerrank.com/Krishvishwa666 " class="text-decoration-none">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                                src="./image/hr.png" alt="blog" style="user-select: auto;">
+                            <div class="p-6" style="user-select: auto;">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                                    style="user-select: auto;">achievement</h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"
+                                    style="user-select: auto;">Hackrrank</h1>
+                                <!-- <p class="leading-relaxed mb-3" style="user-select: auto;">HackerRank is the
+                                    market-leading technical assessment and remote interview solution for hiring
+                                    developers. Learn how to hire technical talent from anywhere!</p> -->
+                                <div class="flex items-center flex-wrap " style="user-select: auto;">
+                                    <a class=" text-decoration-none text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="user-select: auto;"
+                                        href="https://www.hackerrank.com/Krishvishwa666">Learn More
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                            style="user-select: auto;">
+                                            <path d="M5 12h14" style="user-select: auto;"></path>
+                                            <path d="M12 5l7 7-7 7" style="user-select: auto;"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3" style="user-select: auto;">
+                    <div class="h-full border-2 hover:shadow-lg bg-white rounded-3xl border-0 overflow-hidden"
+                        style="user-select: auto;">
+                        <a href="https://www.pexels.com/@krishna-vishwakarma-46100571" class="text-decoration-none">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                                src="./image/pexels-logo.jpg" alt="blog" style="user-select: auto;">
+                            <div class="p-6" style="user-select: auto;">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                                    style="user-select: auto;">Hobby</h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"
+                                    style="user-select: auto;">Photography</h1>
+                                <!-- <p class="leading-relaxed mb-3" style="user-select: auto;">Photography is the art,
+                                    application, and practice of creating durable images by recording light, either
+                                    electronically by means of an image sensor.</p> -->
+                                <div class="flex items-center flex-wrap " style="user-select: auto;">
+                                    <a class=" text-decoration-none text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="user-select: auto;"
+                                        href="https://www.pexels.com/@krishna-vishwakarma-46100571">Learn More
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                            style="user-select: auto;">
+                                            <path d="M5 12h14" style="user-select: auto;"></path>
+                                            <path d="M12 5l7 7-7 7" style="user-select: auto;"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3" style="user-select: auto;">
+                    <div class="h-full border-2 hover:shadow-lg bg-white rounded-3xl border-0 overflow-hidden"
+                        style="user-select: auto;">
+                        <a href="https://www.youtube.com/channel/UC0YLWTsavBXXhnDqJJ3G6TA" class="text-decoration-none">
+                            <img class="lg:h-48 md:h-36 w-full object-cover rounded-3xl object-center shadow-md"
+                                src="./image/youtube.jfif" alt="blog" style="user-select: auto;">
+                            <div class="p-6" style="user-select: auto;">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                                    style="user-select: auto;">Hobby</h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"
+                                    style="user-select: auto;">Youtube</h1>
+                                <!-- <p class="leading-relaxed mb-3" style="user-select: auto;">This is my coding channel on
+                                    Youtube,here i post Education Video. </p> -->
+                                <div class="flex items-center flex-wrap " style="user-select: auto;">
+                                    <a class=" text-decoration-none text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="user-select: auto;"
+                                        href="https://www.youtube.com/channel/UC0YLWTsavBXXhnDqJJ3G6TA">Learn More
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                            style="user-select: auto;">
+                                            <path d="M5 12h14" style="user-select: auto;"></path>
+                                            <path d="M12 5l7 7-7 7" style="user-select: auto;"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3" style="user-select: auto;">
+                    <div class="h-full border-2 hover:shadow-lg bg-white rounded-3xl border-0 overflow-hidden"
+                        style="user-select: auto;">
+                        <a href="https://www.codechef.com/users/krishna_24_25" class="text-decoration-none">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                                src="./image/Codechef.png" alt="blog" style="user-select: auto;">
+                            <div class="p-6" style="user-select: auto;">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                                    style="user-select: auto;">achievement</h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"
+                                    style="user-select: auto;">CodeChef</h1>
+                                <!-- <p class="leading-relaxed mb-3" style="user-select: auto;">CodeChef is a competitive
+                                    programming community of programmers from across the globe. CodeChef was started as
+                                    an educational initiative in the year 2009 by Directi, an Indian software company
+                                </p> -->
+                                <div class="flex items-center flex-wrap " style="user-select: auto;">
+                                    <a class=" text-decoration-none text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="user-select: auto;"
+                                        href="https://www.codechef.com/users/krishna_24_25">Learn More
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                            style="user-select: auto;">
+                                            <path d="M5 12h14" style="user-select: auto;"></path>
+                                            <path d="M12 5l7 7-7 7" style="user-select: auto;"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer section  -->
+    <footer class="text-gray-600 body-font bg-gray-900" style="user-select: auto;">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" style="user-select: auto;">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 text-decoration-none"
+                style="user-select: auto;" href="#top">
+
+                <span class="ml-3 text-2xl text-primary " style="user-select: auto;"><b>Dino Coding</b></span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+                style="user-select: auto;">© 2022 Dino Coding —
+                <a href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2"
+                    class=" text-decoration-none text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"
+                    style="user-select: auto;">@Krishna Vishwakarma</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+                style="user-select: auto;">
+                <a class="text-gray-500" style="user-select: auto;"
+                    href="https://www.facebook.com/profile.php?id=100023857329434">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                            style="user-select: auto;"></path>
+                    </svg>
+                </a>
+
+                <a class="ml-3 text-gray-500" style="user-select: auto;"
+                    href="https://www.instagram.com/krishna_24_25/">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" style="user-select: auto;"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" style="user-select: auto;">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500" style="user-select: auto;"
+                    href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24" style="user-select: auto;">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                            style="user-select: auto;"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none" style="user-select: auto;"></circle>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500" style="user-select: auto;" href="https://github.com/CaptainKrishna/">
+                    <i class="fab fa-github"></i>
+                </a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Some JavaScript Code -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
