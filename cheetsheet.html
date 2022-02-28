@@ -26,111 +26,91 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-gray-900 text-white sticky-top fixed-top">
-        <a class="navbar-brand text-primary" href="index.html">
-            <h3><b>Dino Coding</b></h3>
+    <nav class="navbar navbar-expand-lg shadow-md navbar-dark bg-gray-900 text-white sticky-top fixed-top">
+        <a class="navbar-brand ml " href="index.html">
+            <code class="text-3xl text-green-500 font-black font-mono tracking-wide  px-5 ">
+                &#60;Cheetsheet/&#62;
+            </code>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-align-justify text-white bg-gray-900"></i>
-        </button>
+        
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Books</a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2/">Linkedin</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="skill.html">Skills</a>
-                </li> -->
-
                 <li class="nav-item active">
-                    <a class="nav-link" href="./cheetsheet.html">StudyMaterial</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="mailto:krishvishwa666@gmail.com">Contact</a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="aboutus.html">About us</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        More
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item"
-                            href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2/details/certifications/">Certificate</a>
-                        <a class="dropdown-item" href="./pdf/final resume.pdf">Resume</a>
-                        <a class="dropdown-item" href="https://github.com/CaptainKrishna/">GitHub</a>
-                        <a class="dropdown-item" href="./cheetsheet.html">Cheetsheet</a>
-                    </div>
-                </li>
-
+                
             </ul>
-
         </div>
 
     </nav>
-    <!-- <div class="bg-gray-900 h-100 w-full">
-        <div class="row">
-            <div class="col-sm-4 col-none"></div>
-            <div class="col-sm-4 col-12">   <h1 class="font-bold text-3xl text-blue-700">Cheetsheet</h1></div>
-            <div class="col-sm-4 col-none"></div>
-        </div>
-         
-     
 
-    </div> -->
+    
 
-
-    <div class="container-fluid ">
-
-        <h1 class="bg-black-50 text-sm-3xl font-bold ml-md-64 mt-10"> Cheetsheet & Downlod Link</h1>
-        <p class="bg-gray-500 h-1 w-40  mt-1 rounded-full ml-sm-64"></p>
-
-    </div>
-
+    
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-5">
+                <h1 class="text-3xl font-medium title-font mb-4 text-gray-900 text-left"><b>Cheetsheet</b></h1>
+                <p class="h-1 w-20 bg-blue-500 rounded"></p>
+            </div>
             <div class="flex flex-wrap -m-4">
 
                 <div class="p-4 md:w-1/3 ">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
+                        class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                            src="image/vsco.png" width="720" height="400" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium  mb-3">VS Code</h1>
+                            <a href="https://code.visualstudio.com/download">
+                                <button
+                                    class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                    type="button">
+                                    <i class="fas fa-arrow-down animate-bounce"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="p-4 md:w-1/3 ">
+                    <div
+                        class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
                             src="image/mongodb.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">MongoDb</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">MongoDB is a document database
-                                used to build highly
-                                available and scalable internet applications. With its flexible schema approach, it's
-                                popular with development teams using agile methodologies.</p>
+                         
                             <a href="Cheetsheet/mongodb.pdf">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-blue-500 font-bold  text-xl  "
                                     type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
+                                    Cheetsheet
                                 </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
+                            
                             <a href="https://www.mongodb.com/try/download/community">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
                                     type="button">
-                                    Download <i class="fas fa-arrow-right"></i>
+                                    <i class="fas fa-arrow-down animate-bounce"></i>
                                 </button></a>
                         </div>
                     </div>
@@ -138,338 +118,242 @@
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/github.png" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                           src="image/github.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">GitHub</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">GitHub is a code hosting platform
-                                for version
-                                control and collaboration. It lets you and others work together on projects from
-                                anywhere. This tutorial teaches you GitHub essentials like repositories, branches,
-                                commits, and pull requests.</p>
+                            
                             <a href="Cheetsheet/github-git-cheat-sheet.pdf">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-blue-500 font-bold  text-xl  "
                                     type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
+                                    Cheetsheet
                                 </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
+                            
                             <a href="https://git-scm.com/">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Download <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/java.png" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                           src="image/java.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">JAVA</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">GitHub is a code hosting platform
-                                for version
-                                control and collaboration. It lets you and others work together on projects from
-                                anywhere. This tutorial teaches you GitHub essentials like repositories, branches,
-                                commits, and pull requests.</p>
+                            
                             <a href="Cheetsheet/Java_Cheatsheet_CodeWithHarry.pdf">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
-                                </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
+                                class="text-blue-500 font-bold  text-xl "
+                                type="button">
+                                Cheetsheet
+                            </button></a>
                             <a href="https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Download <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/html.png" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                               src="image/html.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">Html</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">HTML (Hypertext Markup Language)
-                                is the code that is
-                                used to structure a web page and its content. For example, content could be structured
-                                within a set of paragraphs, a list of bulleted points, or using images and data tables.
-                            </p>
+                            
                             <a href="https://www.codewithharry.com/blogpost/html-cheatsheet">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-blue-500 font-bold  text-xl  "
                                     type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
+                                    Cheetsheet
                                 </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
                             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Documentation <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/css.jfif" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                               src="image/css.jfif" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">CSS</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">CSS is the acronym of “Cascading
-                                Style Sheets”. CSS
-                                is a computer language for laying out and structuring web pages (HTML or XML). This
-                                language contains coding elements and is composed of these “cascading style sheets”
-                                which are equally called CSS files (. css).</p>
+                            
                             <a href="https://www.codewithharry.com/blogpost/css-cheatsheet">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-blue-500 font-bold  text-xl  "
                                     type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
+                                    Cheetsheet
                                 </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
                             <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Documentation <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/js.png" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                           src="image/js.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">JavaScript</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">JavaScript is a text-based
-                                programming language used both on the client-side and server-side that allows you to
-                                make web pages interactive. Where HTML and CSS are languages that give structure and
-                                style to web pages, JavaScript gives web pages interactive elements that engage a user.
-                            </p>
+                           
                             <a href="cheetsheet/JavaScript_Cheatsheet_CodeWithHarry.pdf">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
-                                </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
+                                class="text-blue-500 font-bold  text-xl  "
+                                type="button">
+                                Cheetsheet
+                            </button></a>
                             <a href="https://devdocs.io/javascript/">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Documentation <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/sql.png" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                               src="image/sql.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">MySQL</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">MySQL is a database management
-                                system.
-
-                                To add, access, and process data stored in a computer database, you need a database
-                                management system such as MySQL Server.</p>
+                            
                             <a href="cheetsheet/MySQL_Cheatsheet_CodeWithHarry.pdf">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
-                                </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
+                                class="text-blue-500 font-bold  text-xl  "
+                                type="button">
+                                Cheetsheet
+                            </button></a>
                             <a href="https://dev.mysql.com/downloads/windows/installer/8.0.html">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Download <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/cpp.png" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                           src="image/cpp.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">C++</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">
-                                Files with CPP file extension are source code files for applications written in C++
-                                programming language. A single C++ project may contain more than one CPP files as
-                                application source code. ... The C++ project as a whole results in an executable
-                                application when compiled as a whole.</p>
+                            
                             <a href="https://www.codewithharry.com/blogpost/cpp-cheatsheet">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-blue-500 font-bold  text-xl  "
                                     type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
+                                    Cheetsheet
                                 </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
                             <a href="https://sourceforge.net/projects/mingw-w64/">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    mingw-w64 <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/php.png" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                                src="image/php.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">PHP</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">PHP (Hypertext Preprocessor) is
-                                known as a general-purpose scripting language that can be used to develop dynamic and
-                                interactive websites. It was among the first server-side languages that could be
-                                embedded into HTML, making it easier to add functionality to web pages without needing
-                                to call external files for data.</p>
+                           
                             <a href="https://www.codewithharry.com/blogpost/php-cheatsheet/">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-blue-500 font-bold  text-xl  "
                                     type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
+                                    Cheetsheet
                                 </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
                             <a href="https://www.apachefriends.org/download.html">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Xampp <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/node.jpg" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                               src="image/node.jpg" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">NODE JS</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block">Node. js is primarily used for
-                                non-blocking, event-driven servers, due to its single-threaded nature. It's used for
-                                traditional web sites and back-end API services, but was designed with real-time,
-                                push-based architectures in mind.</p>
+                            
                             <a href="https://www.codewithharry.com/blogpost/deploy-nodejs-app-on-ubuntu/">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-blue-500 font-bold  text-xl  "
                                     type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
+                                    Cheetsheet
                                 </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
                             <a href="https://nodejs.org/en/download/">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Download <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="p-4 md:w-1/3">
                     <div
-                        class="h-full hover:shadow-md  rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 hover:bg-gray-900">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-3xl shadow-md"
-                            src="image/python.png" width="720" height="400" alt="blog">
+                    class="h-full border-gray-200 hover:shadow-3xl border-2 rounded-3xl overflow-hidden transform transition duration-500 hover:scale-110 ">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-3xl border-b-2"
+                           src="image/python.png" width="720" height="400" alt="blog">
                         <div class="p-6">
                             <h1 class="title-font text-lg font-medium  mb-3">Python</h1>
-                            <p class="leading-relaxed text-sm mb-3 d-none d-lg-block"> Python used for
-                                Besides web and software development, Python is used for data analytics, machine
-                                learning, and even design. We take a closer look at some of the uses of Python, as well
-                                as why it's such a popular and versatile programming language.</p>
+                           
                             <a href="https://www.codewithharry.com/blogpost/python-cheatsheet/">
                                 <button
-                                    class="text-white bg-blue-400 font-bold rounded-full hover:bg-blue-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                                    class="text-blue-500 font-bold  text-xl  "
                                     type="button">
-                                    Cheet <i class="fas fa-arrow-right"></i>
+                                    Cheetsheet
                                 </button></a>
-                            <!-- <a href="#">
-                                    <button
-                                        class="text-white bg-gray-300 font-bold rounded-full hover:bg-gray-400 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                        type="button">
-                                        How TO <i class="fas fa-arrow-right"></i>
-                                    </button></a> -->
+                         
                             <a href="https://www.python.org/downloads/">
                                 <button
-                                    class="text-white bg-green-400 rounded-full font-bold  hover:bg-green-500 uppercase  text-sm px-6 py-2 rounded-xl  outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
-                                    type="button">
-                                    Download <i class="fas fa-arrow-right"></i>
-                                </button></a>
+                                class="text-green-600 text-xl border-b-2 border-gray-500 ml-4"
+                                type="button">
+                                <i class="fas fa-arrow-down animate-bounce"></i>
+                            </button></a>
                         </div>
                     </div>
                 </div>
@@ -479,16 +363,16 @@
         </div>
     </section>
 
-    <footer class=" body-font bg-gray-900 rounded-t-3xl mr-4 ml-4" style="user-select: auto;">
+    <footer class=" body-font bg-gray-900  rounded-t-3xl md:rounded-t-full mr-4 ml-4" style="user-select: auto;">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" style="user-select: auto;">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-100 text-decoration-none"
                 style="user-select: auto;" href="#top">
-                <code class="text-3xl font-black font-mono tracking-wide ">
-                    &#60;Code/&#62;
+                <code class="text-3xl text-green-500 font-black font-mono tracking-wide ">
+                    &#60;Cheetsheet/&#62;
                 </code>
             </a>
             <p class="text-sm text-gray-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
-                style="user-select: auto;">© 2022  &#60;Code/&#62; —
+                style="user-select: auto;">© 2022  —
                 <a href="https://www.linkedin.com/in/krishna-vishwakarma-a6071b1a2"
                     class=" text-decoration-none text-gray-100 ml-1" rel="noopener noreferrer" target="_blank"
                     style="user-select: auto;">@Krishna Vishwakarma</a>
@@ -529,6 +413,7 @@
             </span>
         </div>
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
