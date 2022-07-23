@@ -31,3 +31,8 @@ body{
       transform: rotateY(360deg) 
     }
   }
+  .word {
+    margin: auto;
+    color: white;
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
