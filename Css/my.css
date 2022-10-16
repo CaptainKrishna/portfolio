@@ -1,38 +1,62 @@
-body{
-    background-color: #6366f1;
+body {
+  background-color: #6366f1;
+  /* overflow: hidden; */
+
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 
-.top1{
-    margin-top: -100px;
+.top1 {
+  margin-top: -100px;
 }
-.but{
-    float:right;
-    margin-right: 0px;
-    margin-bottom: 0px;
+
+.but {
+  float: right;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
-.color1{
-    background-color: #111827;
+
+.color1 {
+  background-color: #111827;
 }
-  .waviy {
-    position: relative;
-    justify-content: center;
-    justify-items: center;
+
+.waviy {
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+  0%,
+  80% {
+    transform: rotateY(360deg)
   }
-  .waviy span {
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
-    animation: flip 2s infinite;
-    animation-delay: calc(.2s * var(--i))
-  }
-  @keyframes flip {
-    0%,80% {
-      transform: rotateY(360deg) 
-    }
-  }
-  .word {
-    margin: auto;
-    color: white;
-    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
-  }
+}
+
+.word {
+  margin: auto;
+  color: white;
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+.ne{
+  visibility: hidden;
+}
